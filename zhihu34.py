@@ -84,9 +84,9 @@ def getAnswer(answerID):
 if __name__ == "__main__":
     attach_path, attach_file = getAnswer('46696983')
 
-    mymail = MyMail("smtp.wo.cn", "15693100995", "751119", "wo.cn")
+    mymail = MyMail("smtp.wo.cn", "xxxxxxxxx", "xxxxxx", "wo.cn")
     mymail.mailContent('convert', attach_file, attach_path, attach_file)
-    if mymail.sendmail(['961313680@qq.com']):
+    if mymail.sendmail(['9xxxxxx0@qq.com']):
         print('Done!')
     else:
         print('False!')
